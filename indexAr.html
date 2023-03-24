@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روان رضا</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body dir="rtl" style="font-family: 'Tajawal', sans-serif;
+;">
+
+<div id="menu-bars" class="fas fa-bars"></div>
+    
+<!-- header   -->
+
+<header>
+
+    <a href="#" class="logo"> <span>روان</span> رضا</a>
+
+    <nav class="navbar">
+        <a href="#home">الرئيسة</a>
+        <a href="#about">عني</a>
+        <a href="https://www.behance.net/rawanreda4">بيهانس</a>
+        <a href="index.html">English</a>
+    </nav>
+
+    <div class="follow" dir="ltr">
+        <a href="https://twitter.com/princess3t7" class="fab fa-twitter"></a>
+        <a href="https://www.youtube.com/@Princess.133/about" class="fab fa-youtube"></a>
+    </div>
+
+</header>
+
+<!-- header -->
+
+<!-- Home  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span class="hi">مرحبا </span>
+        <h3>انا <span> روان </span></h3>
+        <p class="info">طالبة تقنية معلومات</p>
+        <p class="text"></p>
+        <a href="#about" class="btn">من انا</a>
+    </div>
+
+   <div class="image">
+        <img src="i.jpg">
+    </div>
+
+</section>
+
+<!-- Home -->
+
+<!-- About  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> عن  <span> روان </span> </h1>
+
+<div class="row-1">
+
+    <div class="image">
+        <img src="icon.png">
+    </div>
+
+    <div class="content">
+        <h3>اسمي روان</h3>
+        <p>طالبة تقنية معلومات في الجامعة السعودية الكترونية<br> ٢٠١٩ - ٢٠٢٤</p>
+        <div class="box-container">
+            <div class="box" >
+                <p> <span> العمر: </span>  ٢١</p>
+                <p> <span> العنوان : </span> المملكة العربية السعودية - المدينة المنورة</p>
+                <p> <span> اللغات : </span> العربية, الانجليزية </p>
+            </div>
+            <div class="box">
+                <p> <span> البريد الكتروني :  </span> <a href="mailto:Rawanreda12345678@gmail.com" style="color: #666;">راسلني</a> </p>
+        
+            </div>
+        </div>
+        <a  href="CV.pdf" class="btn" download="CV"> السيرة الذاتية</a>
+    </div>
+
+</div>
+
+<h1 class="heading"> <span> مهاراتي </span> </h1>
+
+<div class="row-2">
+   
+    <div class="skills">
+        <div class="progress">
+            <h3> جافا <span> ٤٠٪</span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> بايثون <span> ٢٥٪</span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> لغة قواعد البيانات  <span> ٣٥٪ </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div> 
+        <div class="progress">
+            <h3> فلاتر  <span> ٣٠٪ </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div> 
+        <div class="progress">
+            <h3> مايكروسوفت وورد  <span> ٦٥٪ </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div> 
+        <div class="progress">
+            <h3> مايكروسوفت بوربوينت  <span> ٧٠٪ </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div> 
+
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>الشهادات</h3>
+
+            <p> شغوف  - ٢٠٢٢</p>
+            <p style="font-size: 15px;  ">شرحت مادتين (مقدمة لتكنولوجيا المعلومات ونظم المعلومات)</p>
+            <br>
+            <p> فلاتر و فايربيس - ٢٠٢٢</p>
+            <br>
+            <p>بوابة السايبر - ٢٠٢٢</p>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- About  -->
+
+
+
+<!-- footer -->
+<footer class="footer">  جميع الحقوق محفوظة ٢٠٢٢@    </footer>
+
+
+
+<script>
+
+let menu = document.querySelector('#menu-bars');
+let header = document.querySelector('header');
+
+menu.onclick = () =>{
+    menu.classList.toggle('fa-times');
+    header.classList.toggle('active');
+}
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    header.classList.remove('active');
+}
+
+</script>
+
+</body>
+</html>

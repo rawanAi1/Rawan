@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rawan Reda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="menu-bars" class="fas fa-bars"></div>
+    
+<!-- header   -->
+
+<header>
+
+    <a href="#" class="logo"> <span>Rawan</span> Reda</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="https://www.behance.net/rawanreda4">behance</a>
+        <a href="indexAr.html">العربية</a>
+    </nav>
+
+    <div class="follow">
+        <a href="https://twitter.com/princess3t7" class="fab fa-twitter"></a>
+        <a href="https://www.youtube.com/@Princess.133/about" class="fab fa-youtube"></a>
+    </div>
+
+</header>
+
+<!-- header -->
+
+<!-- Home  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <span class="hi"> hi </span>
+        <h3> i am <span> Rawan </span> </h3>
+        <p class="info">A Information Technology Student</p>
+        <p class="text"></p>
+        <a href="#about" class="btn">about me</a>
+    </div>
+
+   <div class="image">
+        <img src="i.jpg">
+    </div>
+
+</section>
+
+<!-- Home -->
+
+<!-- About  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> about <span> me </span> </h1>
+
+<div class="row-1">
+
+    <div class="image">
+        <img src="icon.png">
+    </div>
+
+    <div class="content">
+        <h3> my name is Rawan</h3>
+        <p>student at Saudi Electronic University - Information Technology <br> 2019 - 2024</p>
+        <div class="box-container">
+            <div class="box">
+                <p> <span> age : </span> 21 </p>
+                <p> <span> Address : </span> Medina, Saudi Arabia </p>
+                <p> <span> language : </span> Arabic, English </p>
+            </div>
+            <div class="box">
+                <p> <span> email : </span> <a href="mailto:Rawanreda12345678@gmail.com" style="color: #666;">Mail Me</a> </p>
+        
+            </div>
+        </div>
+        <a href="CV.pdf" class="btn" download="CV">download CV</a>
+    </div>
+
+</div>
+
+<h1 class="heading"> <span> my </span> skills </h1>
+
+<div class="row-2">
+
+    <div class="skills">
+        <div class="progress">
+            <h3> Java <span> 40% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> Python <span> 25% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        <div class="progress">
+            <h3> SQL  <span> 35% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div> 
+        <div class="progress">
+            <h3> Flutter  <span> 30% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div> 
+        <div class="progress">
+            <h3> Microsoft Word  <span> 65% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div> 
+        <div class="progress">
+            <h3> PowerPoint  <span> 70% </span> </h3>
+            <div class="bar"> <span></span> </div>
+        </div> 
+
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Certificates</h3>
+
+            <p>certificate An educational passion platform (Shaguf) - 2022</p>
+            <p style="font-size: 14px;"> I explained material (introduction to IT and IS)</p>
+            <br>
+            <p>certificate flutter and firebase of attendance - 2022</p>
+            <br>
+            <p>Certificate of attendance Cyber Gate - 2022</p>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- About  -->
+
+
+
+<!-- footer -->
+<footer class="footer">  Copyright © 2022 All rights reserved  </footer>
+
+
+
+<script>
+
+let menu = document.querySelector('#menu-bars');
+let header = document.querySelector('header');
+
+menu.onclick = () =>{
+    menu.classList.toggle('fa-times');
+    header.classList.toggle('active');
+}
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    header.classList.remove('active');
+}
+
+</script>
+
+</body>
+</html>
